@@ -19,6 +19,27 @@ This change log is for [SQL Server Data Tools (SSDT)](download-sql-server-data-t
   
 For detailed posts about what's new and changed, see [the SSDT Team blog](https://blogs.msdn.microsoft.com/ssdt/)
 
+## SSDT for Visual Studio 2017 (15.9.0)
+Build Number: 14.0.16186.0  
+Release date: January 25, 2019  
+
+### What's New?
+**SSIS:**
+
+1. Add Power Query Source for SSIS 2017
+2. Add support for SSIS 2012 back
+3. Add Oracle source & destination for SSIS 2019
+4. Fix an issue that Script Task/Component cannot be loaded when migrating from old SSIS versions
+5. Fix an issue that data viewer doesn't work on win7 SP1 and Win8.1
+6. Fix an issue that in some case saving package will make VS crash 
+7. Fix an issue that in some case package cannot be executed when protection level is EncryptSensitiveWithPassword and target server version is lower than SQL 2017
+8. Fix an issue that annotations with default font are not displayed in SSDT
+
+### Known issues:
+
+- SSIS Execute Package Task doesn't support debugging when ExecuteOutOfProcess is set to True. This issue only applies to debugging. Save, deploy, and execution via DTExec.exe or SSIS catalog is not impacted.
+- SSDT for Visual Studio 2017 (15.8.2) doesn't support designing packages that contain Teradata source/destination. Use SSDT for Visual Studio 2017 (15.8).
+- Power Query Source is not localized
 
 ## SSDT for Visual Studio 2017 (15.8.2)
 Build Number: 14.0.16182.0  
