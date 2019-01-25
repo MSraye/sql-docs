@@ -43,7 +43,7 @@ The installer lists available Visual Studio instances to add the SSDT tools to. 
 
 ## SSDT for VS 2017 (standalone installer)
 
-[![download](../ssdt/media/download.png) Download SSDT for Visual Studio 2017 (15.8.2) ](https://go.microsoft.com/fwlink/?linkid=2038031) 
+[![download](../ssdt/media/download.png) Download SSDT for Visual Studio 2017 (15.9.0) ](https://go.microsoft.com/fwlink/?linkid=) 
 
 > [!IMPORTANT]
 > - Before installing SSDT for Visual Studio 2017 (15.8.2), uninstall *Analysis Services Projects* and *Reporting Services Projects* extensions if they are already installed, and close all VS instances.
